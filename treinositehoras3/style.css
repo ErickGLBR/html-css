@@ -33,6 +33,7 @@ ul li{
     font-size: 50px;
 }
 
-#horas::after{
+#hora,
+#minuto::after{
     content: ":";
 }

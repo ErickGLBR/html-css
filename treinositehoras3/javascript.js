@@ -1,30 +1,32 @@
-const HH = document.getElementById ('hora');
-const MM = document.getElementById ('minuto');
-const SS = document.getElementById ('segndo');
+const H = document.getElementById('hora')
+const M = document.getElementById('minuto')
+const S = document.getElementById('segundo')
 
-const Relogio = setInterval(function time() {
-    let dateToday = new Date()
-    let h = document.getHours()
-    let m = document.getMinutes()
-    let (m) = 0
-    let s = document.getSeconds()
+const relogio = setInterval(function time() {
+    let dataToday = new Date()
     
-    if (h < 10) {
-        h = '0'+h;
+    let H = document.getHours()
+    let M = document.getMinutes()
+    let S = document.getSeconds()
+    
+
+    if (H < 10) {
+        H = '0'+H
     }
 
-    if (m < 10) {
-        m = '0'+m;
+    if (M < 10) {
+        M = '0'+M
     }
 
-    if (s < 10) {
-        s = '0'+s;
+    if (H < 10) {
+        H = '0'+S
     }
-  
+
 })
 
- H.innerHTML = h;
 
- M.innetHTML = m;
+H.innerHTML = H;
 
- S.innetHTML = s;
+M.innetHTML = M;
+
+S.innetHTML = S;
