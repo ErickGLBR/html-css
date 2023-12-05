@@ -15,9 +15,9 @@ const relogio = setInterval(function time() {
 
     if (s < 10) s = '0' + s;
 
-    horas.textContent = hr;
-    minutos.textContent = min;
-    segundos.textContent = s;
+    horas.innetHTML = hr;
+    minutos.innetHTML = min;
+    segundos.innetHTML = s;
 
 })
 
