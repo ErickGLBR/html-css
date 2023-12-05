@@ -3,21 +3,21 @@ const minutos = document.getElementById('minutos');
 const segundos = document.getElementById('segundos');
 
 const relogio = setInterval(function time() {
-    let dataToday = new Date();
+    let dateToday = new Date();
     
-    let hr = dateToda.getHours()
-    let min = dateToda.getMinutes()
-    let s = dateToda.getSeconds()
+    let hr = dateToday.getHours()
+    let min = dateToday.getMinutes()
+    let s = dateToday.getSeconds()
 
     if (hr < 10) hr = '0' + hr;
 
-    if (min < 10) hr = '0' + min;
+    if (min < 10) min = '0' + min;
 
-    if (s < 10) hr = '0' + s;
+    if (s < 10) s = '0' + s;
 
     horas.textContent = hr;
     minutos.textContent = min;
-    segundos.textContet = s;
+    segundos.textContent = s;
 
 })
 
