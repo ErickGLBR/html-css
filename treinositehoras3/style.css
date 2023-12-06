@@ -27,7 +27,6 @@ ul{
 
 ul li{
     width: 100%;
-    border: 1px solid black;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -35,7 +34,9 @@ ul li{
     font-size: 50px;
 }
 
-#horas,
+#horas::after
 #minutos::after{
     content: ":";
+    margin-left: 50px;
+    margin-right: 50px;
 }
