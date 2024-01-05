@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Teste de Formulario</h1>
+    <form action="cadastro.js" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name" required >
+        </p>
+        <p>
+            <label for="media">Media</label>
+            <input type="number" name="media" id="imedia" min="0" max="15" placeholder="0 a 15" step="0.1" value="5" required>
+        </p>
+        <p>
+            <label for="imes">Periodo Letivel</label>
+            <input type="month" name="mes" id="imes" value="2024-01" >
+        </p>
+        <p>
+            <label for="idia">Dia da Prova</label>
+            <input type="date" name="dia" id="idia" value="2024-01-05">
+        </p>
+        <p>
+            <label for="ihora">Horario da Hora</label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
