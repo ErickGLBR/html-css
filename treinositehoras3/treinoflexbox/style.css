@@ -1,7 +1,7 @@
 .container{
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     justify-content: space-evenly;
     align-items: flex-start;
@@ -10,9 +10,9 @@
 
 .texts{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .content{
