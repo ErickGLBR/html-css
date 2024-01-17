@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 300px 300px;
     grid-template-rows: 300px 300px 300px;
-    grid-template-areas: "yellow green" "purple pink" "red blue";
+    grid-template-areas: "yellow green" "red blue" "red blue";
 }
 
 div{
