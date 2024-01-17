@@ -2,9 +2,9 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: repeat(auto-fill, 200px);
     grid-template-rows: 300px 300px 300px;
-    grid-template-areas: "yellow green" "red blue" "red blue";
+    /* grid-template-areas: "yellow green" "red blue"; */
 }
 
 div{
@@ -15,20 +15,20 @@ div{
 
 .red{
     background-color: red;
-    grid-area: red;
+   /* grid-area: red; */
 }
 
 .blue{
     background-color: blue;
-    grid-area: blue;
+    /* grid-area: blue; */
 }
 
 .green{
     background-color: green;
-    grid-area: green;
+   /* grid-area: green; */
 }
 
 .yellow{
     background-color: yellow;
-    grid-area: yellow;
+    /*grid-area: yellow; */
 }
