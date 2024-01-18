@@ -1,0 +1,26 @@
+* {
+    font-size: 24px;
+    font-family: Inter;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    border: 2px solid black;
+    height: 750px;
+
+    flex-direction: column;
+}
+
+.item{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    margin: 20px;
+
+    background-color: red;
+}
