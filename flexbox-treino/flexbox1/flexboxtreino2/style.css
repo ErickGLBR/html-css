@@ -14,7 +14,7 @@ body{
     height: 750px;
 
     flex-direction: row;
-    align-items: stretch;
+    align-items: center;
     justify-content: ;
     flex-wrap: ;
     flex-flow: ;
@@ -23,7 +23,7 @@ body{
 
 .item{
     width: 80px;
-    height: ;
+    height: 80px;
     padding: 20px;
     margin: 20px;
 
