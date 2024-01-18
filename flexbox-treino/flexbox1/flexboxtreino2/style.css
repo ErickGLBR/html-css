@@ -13,7 +13,7 @@ body{
     border: 2px solid black;
     height: 750px;
 
-    flex-direction: column-reverse;
+    flex-direction: columns;
 }
 
 .item{
