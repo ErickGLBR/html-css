@@ -13,12 +13,17 @@ body{
     border: 2px solid black;
     height: 750px;
 
-    flex-direction: row-reverse;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: ;
+    flex-wrap: ;
+    flex-flow: ;
+
 }
 
 .item{
     width: 80px;
-    height: 80px;
+    height: ;
     padding: 20px;
     margin: 20px;
 
