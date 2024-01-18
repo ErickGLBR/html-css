@@ -15,16 +15,16 @@ body{
 
     flex-direction: row;
     align-items: start;
-    justify-content: flex-end;
-    gap: 20px
-    flex-wrap: ;
-    flex-flow: ;
+    justify-content: start;
+    gap: 20px;
+    
+    flex-wrap: wrap;
+ 
 
 }
 
 .item{
-    width: 80px;
-    height: 80px;
+    width: 180px;
     padding: 20px;
     margin: 20px;
 
