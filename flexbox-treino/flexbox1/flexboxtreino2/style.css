@@ -14,8 +14,8 @@ body{
     height: 750px;
 
     flex-direction: column;
-    align-items: ;
-    justify-content: flex-end;
+    align-items: start;
+    justify-content: flex-start;
     flex-wrap: ;
     flex-flow: ;
 
